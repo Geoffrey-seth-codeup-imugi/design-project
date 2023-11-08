@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    width: 105px;
+    height: 105px;
+}
+
+.navbar-toggler{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 50px;
+}
+
+.font-v{
+    font-family: Anton, sans-serif;
+}
+
