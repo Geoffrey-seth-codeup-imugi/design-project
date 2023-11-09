@@ -7,30 +7,49 @@ header {
 }
 
 h1 {
+    font-size: 4em;
 }
+
 h2 {
+    font-size: 2em;
 }
-/*@font-face {*/
-/*    font-family: 'Anton', sans-serif;*/
-/*    font-family: 'Balsamiq Sans', sans-serif;*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
+
 
 .logo{
     width: 105px;
     height: 105px;
 }
 
-.navbar-toggler{
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    height: 50px;
-}
 
 .font-v{
     font-family: Anton, sans-serif;
 }
 
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin: 2vw;
+}
 
+#red {
+    background-color: rgb(213 96 69);
+}
 
+#blue {
+    background-color: blue;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#green {
+    background-color: green;
+}
