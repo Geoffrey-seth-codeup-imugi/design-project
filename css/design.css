@@ -29,6 +29,10 @@ h2 {
     font-family: 'Abel', sans-serif;
 }
 
+img {
+    margin: 0px 0px 0px 3px;
+}
+
 .circle {
     width: 100px;
     height: 100px;
@@ -39,7 +43,7 @@ h2 {
     border-radius: 50px;
     color: white;
     text-align: center;
-    margin: 2vw;
+    margin: 12px;
 }
 
 .sm-cir{
