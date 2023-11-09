@@ -25,6 +25,10 @@ h2 {
     font-family: Anton, sans-serif;
 }
 
+.font-a{
+    font-family: 'Abel', sans-serif;
+}
+
 .circle {
     width: 100px;
     height: 100px;
@@ -38,18 +42,51 @@ h2 {
     margin: 2vw;
 }
 
+.sm-cir{
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+}
+
+/*small icon circles*/
+.sm-red {
+    background-color: rgb(213, 96, 69);
+}
+
+.sm-blue {
+    background-color: rgb(76, 168, 168);
+}
+
+.sm-orange {
+    background-color: rgb(224, 160, 78);
+}
+
+.sm-green {
+    background-color: rgb(135, 175, 115);
+}
+
+
+/*big circles*/
 #red {
-    background-color: rgb(213 96 69);
+    background-color: rgb(213, 96, 69);
 }
 
 #blue {
-    background-color: blue;
+    background-color: rgb(76, 168, 168);
 }
 
 #orange {
-    background-color: orange;
+    background-color: rgb(224, 160, 78);
 }
 
 #green {
-    background-color: green;
+    background-color: rgb(135, 175, 115);
+}
+
+.brd-clr{
+    color: rgb(230, 230, 230);
 }
