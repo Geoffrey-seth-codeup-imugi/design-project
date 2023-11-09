@@ -1,8 +1,21 @@
-@font-face {
-    font-family: 'Anton', sans-serif;
-    font-family: 'Balsamiq Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+body {
+    background: #f0f0f0;
 }
+
+h1 {
+    position: relative;
+    top: 5em;
+}
+h2 {
+    position: absolute;
+    /*top: 10em;*/
+
+}
+/*@font-face {*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    font-family: 'Balsamiq Sans', sans-serif;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
 .logo{
     position: absolute;
@@ -22,4 +35,6 @@
 .font-v{
     font-family: Anton, sans-serif;
 }
+
+
 
