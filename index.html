@@ -1,188 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Design Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3f73c8b14d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/design.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans&family=Montserrat&display=swap"
-          rel="stylesheet">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans&family=Montserrat&display=swap" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-<!--logo and hamburger drop down-->
+
 <body>
-<!--<header class="container">-->
-    <nav class="navbar">
-        <div class="inline container-fluid">
-            <img class="logo" src="assets%202/logo.png" alt="Logo top left">
-            <button class="navbar-toggler d-flex justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                 aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                               aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+
+<nav class="navbar">
+    <div class="inline container-fluid">
+        <!-- ... (navbar code) ... -->
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a>
+                    <img src="assets%202/logo.png" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-<!--</header>-->
-
-<!--main heading-->
-<main>
-    <h1 class="text-uppercase font-v text-center pt-5">Visual Design & Web Development</h1>
-    <h2 class="text-uppercase font-v text-center mt-4 mb-4">From Park City, Utah</h2>
-    <!--color circles-->
-    <div>
-        <div class="circles d-flex justify-content-center">
-            <div class="d-flex justify-content-center flex-wrap">
-                <div id="red" class="circle red text-uppercase">
-                    <h6 class="font-v">Design</h6>
-                </div>
-                <div id="orange" class="circle yellow text-uppercase">
-                    <h6 class="font-v">Develop</h6>
-                </div>
-                <div class="w-100 d-md-none"></div>
-                <div id="green" class="circle green text-uppercase">
-                    <h6 class="font-v">Support</h6>
-                </div>
-                <div id="blue" class="circle blue text-uppercase">
-                    <h6 class="font-v">Host</h6>
-                </div>
-            </div>
-        </div>
+        </nav>
     </div>
-    <div class="d-none d-md-block">
-        <hr style="width: 90%; margin-left: auto; margin-right: auto;">
+</nav>
+
+<h1 class="text-uppercase font-v text-center pt-5">Visual Design & Web Development</h1>
+<h2 class="text-uppercase font-v text-center mt-4 mb-4">From Park City, Utah</h2>
+
+<div>
+    <div class="circles d-flex justify-content-center">
+        <!-- ... (circles code) ... -->
     </div>
-    <h5 class="text-center pb-4 pt-4 font-a">Selected Work</h5>
+</div>
 
-    <!--IMAGES-->
+<div class="d-none d-md-block">
+    <hr style="width: 90%; margin-left: auto; margin-right: auto;">
+</div>
 
-    <div class="container">
-        <div class="col-md-12">
+<h5 class="text-center pb-4 pt-4 font-a">Selected Work</h5>
+
+<!-- IMAGES -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
             <img src="assets%202/images/apple-ipad.jpg" class="img-fluid border mt-3 border-5 brd-clr">
-            <div class="row">
-                <div class="font-a text-uppercase text-star col">Featured Project</div>
-                <div class="d-flex justify-content-end col">
-                    <div class="sm-cir sm-red">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class="sm-cir sm-orange">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class=" sm-cir sm-green">
-                        <h6 class="font-v col">S</h6>
-                    </div>
-                    <div class=" sm-cir sm-blue">
-                        <h6 class="font-v col">H</h6>
-                    </div>
-                </div>
-            </div>
+            <!-- ... (additional code for the first image) ... -->
         </div>
 
-        <div class="col-md-12">
-            <img src="assets%202/images/macbook.jpg" class="img-fluid border mt-3 border-5 brd-clr">
-            <div class="row">
-                <div class="font-a text-uppercase text-star col">Featured Project</div>
-                <div class="d-flex justify-content-end col">
-                    <div class="sm-cir sm-red">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class="sm-cir sm-orange">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class=" sm-cir sm-green">
-                        <h6 class="font-v col">S</h6>
-                    </div>
-                    <div class=" sm-cir sm-blue">
-                        <h6 class="font-v col">H</h6>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-6">
+            <img src="assets%202/images/macbook.jpg" class="img-fluid border mt-3 border-5 brd-clr ">
+            <!-- ... (additional code for the second image) ... -->
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-6">
             <img src="assets%202/images/man.jpg" class="img-fluid border mt-3 border-5 brd-clr">
-            <div class="row">
-                <div class="font-a text-uppercase text-star col">Featured Project</div>
-                <div class="d-flex justify-content-end col">
-                    <div class="sm-cir sm-red">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class="sm-cir sm-orange">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class=" sm-cir sm-green">
-                        <h6 class="font-v col">S</h6>
-                    </div>
-                    <div class=" sm-cir sm-blue">
-                        <h6 class="font-v col">H</h6>
-                    </div>
-                </div>
-            </div>
+            <!-- ... (additional code for the third image) ... -->
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-6">
             <img src="assets%202/images/security.jpg" class="img-fluid border mt-3 border-5 brd-clr">
-            <div class="row">
-                <div class="font-a text-uppercase text-star col">Featured Project</div>
-                <div class="d-flex justify-content-end col">
-                    <div class="sm-cir sm-red">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class="sm-cir sm-orange">
-                        <h6 class="font-v col">D</h6>
-                    </div>
-                    <div class=" sm-cir sm-green">
-                        <h6 class="font-v col">S</h6>
-                    </div>
-                    <div class=" sm-cir sm-blue">
-                        <h6 class="font-v col">H</h6>
-                    </div>
-                </div>
-            </div>
+            <!-- ... (additional code for the fourth image) ... -->
         </div>
     </div>
-</main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/3f73c8b14d.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
