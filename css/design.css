@@ -59,8 +59,8 @@ h2 {
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin: 0 4px 0 4px;
+    margin: 0 4px  4px;
+    align-items: center;
 }
 
 /*small icon circles*/
@@ -100,4 +100,10 @@ h2 {
 
 .brd-clr{
     color: rgb(230, 230, 230);
+}
+
+.sm-img{
+    width: 100px;
+    height: 100px;
+    margin: 10px
 }
